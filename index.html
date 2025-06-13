@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proskurin</title>
+    <meta name="keywords" content="html,css">
+    <meta name="description" content="learning frontend">
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body >
+   
+    
+   <div class="film-container">
+        <label>Выберите фильм:</label>
+        <select id="film">
+            <option value="10">Прежде,чем я усну($10)</option>
+            <option value="15">Омерзительная восьмерка($15)</option>
+            <option value="12">Побег из шоушенка($12)</option>
+            <option value="11">Граф монте-кристо($11)</option>
+            <option value="9">Красная поляна($9)</option>
+        </select>       
+    </div>
+    
+    <ul class="showcase">
+        <li>
+            <div class="seat"></div>
+            <small>Свободно</small>
+        </li>
+        <li>
+            <div class="seat sselected"></div>
+            <small>Выбрано</small>
+        </li>
+        <li>
+            <div class="seat occupied"></div>
+            <small>Занято</small>
+        </li>
+    </ul>
+    
+    <div class="container">
+        <div class="screen"></div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+            <div class="seat occupied"></div>
+            <div class="seat occupied"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+    </div>
+    <p class="text">
+        Вы выбрали мест <span id="count">0</span> стоимость билетов<span id="total"> 0</span>$
+    </p>
+    <script src="work.js"></script>
+
+</body>
+</html>
